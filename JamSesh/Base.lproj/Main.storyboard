@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k1u-ZG-huI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Menu View Controller-->
+        <scene sceneID="kTA-iE-Snf">
+            <objects>
+                <navigationController id="k1u-ZG-huI" customClass="MainMenuViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="24u-d7-y3e">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="oj0-Fr-q8S" kind="relationship" relationship="rootViewController" id="Qer-7O-WpW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NEA-85-iUQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-775" y="-713"/>
+        </scene>
+        <!--SignUpViewController-->
+        <scene sceneID="UXy-vh-U82">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" title="SignUpViewController" id="LkW-12-LuP" customClass="SignUpViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZkP-fW-kzJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to JamSesh!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcx-JE-WbG">
+                                <rect key="frame" x="55" y="148" width="265" height="38"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QRk-8S-iq8">
+                                <rect key="frame" x="55" y="315" width="265" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="0.12" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="tkk-ku-wwT"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3J0-Eb-hhD">
+                                <rect key="frame" x="122.5" y="386" width="130" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="0.20473030821917809" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="fK6-NG-b1r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="24"/>
+                                <state key="normal" title="Play &gt;">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="k1u-ZG-huI" kind="show" id="ZNp-Sh-Ei9"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OxA-8G-oEs">
+                                <rect key="frame" x="55" y="251" width="265" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="0.1213077910958904" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="2C3-rR-2xi"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.75294117650000003" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QRk-8S-iq8" firstAttribute="centerX" secondItem="FM5-vb-m2O" secondAttribute="centerX" id="1Ty-rW-Afs"/>
+                            <constraint firstItem="QRk-8S-iq8" firstAttribute="top" secondItem="OxA-8G-oEs" secondAttribute="bottom" constant="30" id="5I8-uG-mQK"/>
+                            <constraint firstItem="3J0-Eb-hhD" firstAttribute="top" secondItem="QRk-8S-iq8" secondAttribute="bottom" constant="37" id="DBE-yD-pIQ"/>
+                            <constraint firstItem="hcx-JE-WbG" firstAttribute="centerX" secondItem="FM5-vb-m2O" secondAttribute="centerX" id="cK7-oI-jBe"/>
+                            <constraint firstItem="FM5-vb-m2O" firstAttribute="bottom" secondItem="3J0-Eb-hhD" secondAttribute="bottom" constant="236" id="dfD-Xk-OQz"/>
+                            <constraint firstItem="OxA-8G-oEs" firstAttribute="centerX" secondItem="FM5-vb-m2O" secondAttribute="centerX" id="gnz-k3-eHd"/>
+                            <constraint firstItem="3J0-Eb-hhD" firstAttribute="centerX" secondItem="FM5-vb-m2O" secondAttribute="centerX" id="yXR-MV-iv1"/>
+                            <constraint firstItem="OxA-8G-oEs" firstAttribute="top" secondItem="hcx-JE-WbG" secondAttribute="bottom" constant="65" id="yv4-0k-ef1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FM5-vb-m2O"/>
+                    </view>
+                    <connections>
+                        <outlet property="banner" destination="hcx-JE-WbG" id="qfr-B7-CaS"/>
+                        <outlet property="emailText" destination="QRk-8S-iq8" id="dya-Cd-tbH"/>
+                        <outlet property="firstNameText" destination="OxA-8G-oEs" id="e0o-oZ-NnD"/>
+                        <outlet property="playButton" destination="3J0-Eb-hhD" id="rZq-Eo-wak"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPm-h5-yoS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1911.2" y="-737.18140929535241"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ArZ-ks-GLb">
+            <objects>
+                <tabBarController storyboardIdentifier="MainMenu" id="oj0-Fr-q8S" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ofr-dc-Ijm"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rPP-ct-6NT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.14509803921568626" green="0.34901960784313724" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jD3-Te-oqp" kind="relationship" relationship="viewControllers" id="hDj-ip-oMF"/>
+                        <segue destination="R6j-gt-0do" kind="relationship" relationship="viewControllers" id="JuP-uh-LDH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GnP-qO-b5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-775" y="134"/>
+        </scene>
+        <!--Played Songs-->
+        <scene sceneID="nEh-XT-VGc">
+            <objects>
+                <viewController title="Played Songs" id="R6j-gt-0do" customClass="PlayerStatsViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="INs-te-0sp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XqX-H9-wkP">
+                                <rect key="frame" x="0.0" y="438" width="375" height="180"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="l9C-W5-mdK"/>
+                                </constraints>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayedSongsTypeTableViewCell" rowHeight="60" id="LxU-Jv-EF7" customClass="PlayedSongsTypeTableViewCell" customModule="JamSesh" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LxU-Jv-EF7" id="k2R-rj-rnD">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎸🎸🎸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dg-W5-Sko">
+                                                    <rect key="frame" x="24" y="14" width="84" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAL-OC-k3q">
+                                                    <rect key="frame" x="326" y="8.5" width="18" height="43"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="32"/>
+                                                    <color key="textColor" red="0.1150387662" green="0.89813512559999997" blue="0.2164544873" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8Dg-W5-Sko" firstAttribute="top" secondItem="k2R-rj-rnD" secondAttribute="top" constant="14" id="E6E-Nv-gKC"/>
+                                                <constraint firstAttribute="trailing" secondItem="TAL-OC-k3q" secondAttribute="trailing" constant="31" id="KmG-yO-EJa"/>
+                                                <constraint firstItem="8Dg-W5-Sko" firstAttribute="leading" secondItem="k2R-rj-rnD" secondAttribute="leading" constant="24" id="Noa-x4-WOz"/>
+                                                <constraint firstAttribute="bottom" secondItem="8Dg-W5-Sko" secondAttribute="bottom" constant="15.5" id="YTm-O2-4Bg"/>
+                                                <constraint firstItem="TAL-OC-k3q" firstAttribute="centerY" secondItem="k2R-rj-rnD" secondAttribute="centerY" id="uQ0-6j-EBH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="songCountLabel" destination="TAL-OC-k3q" id="1FQ-yh-XPX"/>
+                                            <outlet property="titleLabel" destination="8Dg-W5-Sko" id="DUS-CS-wlg"/>
+                                            <segue destination="0DW-rC-BTa" kind="show" id="4GP-Sa-qa8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="R6j-gt-0do" id="32x-gW-Eza"/>
+                                    <outlet property="delegate" destination="R6j-gt-0do" id="Hdo-I2-BHa"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-YG-fel">
+                                <rect key="frame" x="128" y="116" width="119.5" height="30"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <constraints>
+                            <constraint firstItem="OKr-7v-HZU" firstAttribute="bottom" secondItem="XqX-H9-wkP" secondAttribute="bottom" id="JWI-5a-vfD"/>
+                            <constraint firstItem="XqX-H9-wkP" firstAttribute="leading" secondItem="OKr-7v-HZU" secondAttribute="leading" id="KIc-tO-Bxa"/>
+                            <constraint firstItem="XqX-H9-wkP" firstAttribute="top" secondItem="OKr-7v-HZU" secondAttribute="top" priority="1" constant="374" id="Qh7-L8-3w9"/>
+                            <constraint firstItem="PYv-YG-fel" firstAttribute="top" secondItem="OKr-7v-HZU" secondAttribute="top" constant="96" id="ehr-Mm-1RN"/>
+                            <constraint firstItem="OKr-7v-HZU" firstAttribute="trailing" secondItem="XqX-H9-wkP" secondAttribute="trailing" id="nbO-V5-FaL"/>
+                            <constraint firstItem="PYv-YG-fel" firstAttribute="centerX" secondItem="OKr-7v-HZU" secondAttribute="centerX" id="rJV-1m-35O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OKr-7v-HZU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me" image="happy" selectedImage="happy" id="AcE-AQ-CUd"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="playedSongsTypesTable" destination="XqX-H9-wkP" id="JC1-Wd-B6B"/>
+                        <outlet property="playerNameLabel" destination="PYv-YG-fel" id="MLG-Cp-oKF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mLT-sZ-Ut0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-775.20000000000005" y="1047.5262368815593"/>
+        </scene>
+        <!--Played Songs View Controller-->
+        <scene sceneID="RJJ-Rr-ACl">
+            <objects>
+                <viewController id="0DW-rC-BTa" customClass="PlayedSongsViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y1y-xt-YcT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eEx-wO-dNy">
+                                <rect key="frame" x="0.0" y="20" width="375" height="576"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayedSongTableViewCell" rowHeight="60" id="06D-et-SJG" customClass="PlayedSongTableViewCell" customModule="JamSesh" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="06D-et-SJG" id="jY2-1a-24Q">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBA-nh-ryZ">
+                                                    <rect key="frame" x="303.5" y="7" width="56.5" height="46"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="34"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&lt;Song Artist&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="aHN-of-1KO">
+                                                    <rect key="frame" x="15" y="33" width="267" height="21"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="18"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&lt;Song Title&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="qEH-Q7-rWO">
+                                                    <rect key="frame" x="15" y="5" width="267" height="21"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fBA-nh-ryZ" firstAttribute="centerY" secondItem="jY2-1a-24Q" secondAttribute="centerY" id="458-no-x6s"/>
+                                                <constraint firstAttribute="trailing" secondItem="fBA-nh-ryZ" secondAttribute="trailing" constant="15" id="LTr-TP-rJy"/>
+                                                <constraint firstItem="qEH-Q7-rWO" firstAttribute="top" secondItem="jY2-1a-24Q" secondAttribute="top" constant="5" id="UQp-bY-j48"/>
+                                                <constraint firstAttribute="bottom" secondItem="aHN-of-1KO" secondAttribute="bottom" constant="5" id="mfy-SR-Jpk"/>
+                                                <constraint firstItem="aHN-of-1KO" firstAttribute="leading" secondItem="jY2-1a-24Q" secondAttribute="leading" constant="15" id="nVm-Ra-RUS"/>
+                                                <constraint firstItem="qEH-Q7-rWO" firstAttribute="leading" secondItem="jY2-1a-24Q" secondAttribute="leading" constant="15" id="rWw-a5-FUm"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="bestScore" destination="fBA-nh-ryZ" id="q58-rC-F9K"/>
+                                            <outlet property="songArtist" destination="aHN-of-1KO" id="X3m-2K-jb5"/>
+                                            <outlet property="songTitle" destination="qEH-Q7-rWO" id="x3R-0w-DtW"/>
+                                            <segue destination="FfA-E3-rpm" kind="show" id="Vh6-hB-meu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="0DW-rC-BTa" id="J88-Ou-DD8"/>
+                                    <outlet property="delegate" destination="0DW-rC-BTa" id="JOz-bE-T9B"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🎸🎸🎸Mastered" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkt-oO-qAi">
+                                <rect key="frame" x="123" y="604" width="128" height="58"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Na3-k3-aUJ" firstAttribute="trailing" secondItem="eEx-wO-dNy" secondAttribute="trailing" id="09p-sG-rcL"/>
+                            <constraint firstItem="Na3-k3-aUJ" firstAttribute="bottom" secondItem="hkt-oO-qAi" secondAttribute="bottom" constant="5" id="2Rz-tb-MIf"/>
+                            <constraint firstItem="eEx-wO-dNy" firstAttribute="leading" secondItem="Na3-k3-aUJ" secondAttribute="leading" id="7Lb-bq-N1Y"/>
+                            <constraint firstItem="Na3-k3-aUJ" firstAttribute="trailing" secondItem="hkt-oO-qAi" secondAttribute="trailing" constant="110" id="XSm-vl-qNe"/>
+                            <constraint firstItem="Na3-k3-aUJ" firstAttribute="bottom" secondItem="eEx-wO-dNy" secondAttribute="bottom" constant="71" id="Zvy-rM-ghN"/>
+                            <constraint firstItem="hkt-oO-qAi" firstAttribute="centerX" secondItem="Na3-k3-aUJ" secondAttribute="centerX" id="lRw-HV-654"/>
+                            <constraint firstItem="hkt-oO-qAi" firstAttribute="leading" secondItem="Na3-k3-aUJ" secondAttribute="leading" constant="110" id="lkk-Mk-CY2"/>
+                            <constraint firstItem="hkt-oO-qAi" firstAttribute="top" secondItem="eEx-wO-dNy" secondAttribute="bottom" constant="8" id="piC-0f-ANv"/>
+                            <constraint firstItem="Na3-k3-aUJ" firstAttribute="top" secondItem="eEx-wO-dNy" secondAttribute="top" constant="44" id="yYm-am-yiD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Na3-k3-aUJ"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="guitarEmojisLabel" destination="hkt-oO-qAi" id="3tx-jl-DKd"/>
+                        <outlet property="playedSongsTableView" destination="eEx-wO-dNy" id="wkb-Ht-HVD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hq3-0y-GMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="1047.5262368815593"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="n4F-87-jHe">
+            <objects>
+                <viewController storyboardIdentifier="SongSearchViewController" title="Search" id="jD3-Te-oqp" customClass="SongSearchViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gzP-4m-pkz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X97-ia-biM">
+                                <rect key="frame" x="0.0" y="76" width="375" height="542"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongTableViewCell" rowHeight="60" id="kG7-tw-k2j" customClass="SongTableViewCell" customModule="JamSesh" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kG7-tw-k2j" id="zsZ-HV-ybI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Song Artist&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="d2a-mh-62N">
+                                                    <rect key="frame" x="15" y="30" width="345" height="24.5"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="18"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Song Title&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="UnC-uO-24E">
+                                                    <rect key="frame" x="15" y="5" width="345" height="27"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="UnC-uO-24E" firstAttribute="top" secondItem="zsZ-HV-ybI" secondAttribute="top" priority="500" constant="5" id="26M-Ug-11X"/>
+                                                <constraint firstItem="d2a-mh-62N" firstAttribute="leading" secondItem="zsZ-HV-ybI" secondAttribute="leading" constant="15" id="43X-d8-pPE"/>
+                                                <constraint firstAttribute="trailing" secondItem="d2a-mh-62N" secondAttribute="trailing" constant="15" id="DMK-A0-mBo"/>
+                                                <constraint firstItem="UnC-uO-24E" firstAttribute="leading" secondItem="zsZ-HV-ybI" secondAttribute="leading" constant="15" id="OLO-sE-63x"/>
+                                                <constraint firstAttribute="trailing" secondItem="UnC-uO-24E" secondAttribute="trailing" constant="15" id="TMd-Xh-3ER"/>
+                                                <constraint firstAttribute="bottom" secondItem="d2a-mh-62N" secondAttribute="bottom" priority="500" constant="5" id="mcu-nK-nAY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="songArtist" destination="d2a-mh-62N" id="xsk-qR-YUA"/>
+                                            <outlet property="songTitle" destination="UnC-uO-24E" id="gdd-lr-23m"/>
+                                            <segue destination="FfA-E3-rpm" kind="show" id="5R5-AR-yfO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="jD3-Te-oqp" id="slJ-VM-C6W"/>
+                                    <outlet property="delegate" destination="jD3-Te-oqp" id="co5-ID-Wlt"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Search for a song" translatesAutoresizingMaskIntoConstraints="NO" id="XQ9-IE-yeb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <color key="barTintColor" red="0.31372549020000001" green="0.68627450980000004" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X97-ia-biM" firstAttribute="top" secondItem="XQ9-IE-yeb" secondAttribute="bottom" id="0PQ-CE-7PB"/>
+                            <constraint firstItem="X97-ia-biM" firstAttribute="leading" secondItem="ZVH-Gg-tms" secondAttribute="leading" id="caJ-nP-Rzx"/>
+                            <constraint firstItem="ZVH-Gg-tms" firstAttribute="trailing" secondItem="X97-ia-biM" secondAttribute="trailing" id="cns-Nk-cgD"/>
+                            <constraint firstItem="ZVH-Gg-tms" firstAttribute="bottom" secondItem="X97-ia-biM" secondAttribute="bottom" id="dXq-yR-fbc"/>
+                            <constraint firstItem="XQ9-IE-yeb" firstAttribute="top" secondItem="ZVH-Gg-tms" secondAttribute="top" id="dfR-hO-4UK"/>
+                            <constraint firstItem="XQ9-IE-yeb" firstAttribute="leading" secondItem="ZVH-Gg-tms" secondAttribute="leading" id="j5w-Y5-XcE"/>
+                            <constraint firstItem="ZVH-Gg-tms" firstAttribute="trailing" secondItem="XQ9-IE-yeb" secondAttribute="trailing" id="zS4-pE-Cud"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZVH-Gg-tms"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Play" image="play" selectedImage="play" id="EaR-lL-ltL"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="resultsTable" destination="X97-ia-biM" id="PmI-uv-gW9"/>
+                        <outlet property="searchBar" destination="XQ9-IE-yeb" id="G9i-FV-7Dx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkD-RK-lTA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="133.5832083958021"/>
+        </scene>
+        <!--Pre Play Song View Controller-->
+        <scene sceneID="Qb8-vg-3Sw">
+            <objects>
+                <viewController storyboardIdentifier="PrePlaySongViewController" id="FfA-E3-rpm" customClass="PrePlaySongViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nlC-a4-h2w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NKL-Pl-5h8">
+                                <rect key="frame" x="16" y="86" width="343" height="437"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="kwH-12-pBi">
+                                    <size key="itemSize" width="140" height="140"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Chord" id="nvn-z0-eey" customClass="ChordChartView" customModule="JamSesh" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kg5-wg-d1L">
+                                                    <rect key="frame" x="42" y="7" width="56" height="21"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S5C-zB-hoi">
+                                                    <rect key="frame" x="18" y="33" width="104" height="100"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="S5C-zB-hoi" secondAttribute="bottom" constant="7" id="2fa-zr-1XA"/>
+                                            <constraint firstItem="S5C-zB-hoi" firstAttribute="width" secondItem="nvn-z0-eey" secondAttribute="height" multiplier="26:35" id="2us-ao-f7Q"/>
+                                            <constraint firstItem="Kg5-wg-d1L" firstAttribute="top" secondItem="nvn-z0-eey" secondAttribute="top" constant="7" id="3TG-Nf-xpW"/>
+                                            <constraint firstItem="Kg5-wg-d1L" firstAttribute="centerX" secondItem="nvn-z0-eey" secondAttribute="centerX" id="eJd-8d-08y"/>
+                                            <constraint firstItem="S5C-zB-hoi" firstAttribute="centerX" secondItem="nvn-z0-eey" secondAttribute="centerX" id="rb4-em-dPn"/>
+                                            <constraint firstItem="S5C-zB-hoi" firstAttribute="top" secondItem="nvn-z0-eey" secondAttribute="top" constant="33" id="xlk-i8-l2C"/>
+                                        </constraints>
+                                        <size key="customSize" width="140" height="140"/>
+                                        <connections>
+                                            <outlet property="chart" destination="S5C-zB-hoi" id="g4y-4T-oTc"/>
+                                            <outlet property="chordText" destination="Kg5-wg-d1L" id="tV0-Lx-ga1"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="FfA-E3-rpm" id="2ym-bX-cFI"/>
+                                </connections>
+                            </collectionView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="tnY-VA-5Qh">
+                                <rect key="frame" x="217" y="618" width="94" height="29"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="capoValueChanged:" destination="FfA-E3-rpm" eventType="valueChanged" id="CU0-HH-pUH"/>
+                                </connections>
+                            </stepper>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="eZV-A2-UcQ">
+                                <rect key="frame" x="64" y="618" width="94" height="29"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="capoValueChanged:" destination="FfA-E3-rpm" eventType="valueChanged" id="M7S-z9-4Ni"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoe-Hp-EhB">
+                                <rect key="frame" x="258" y="576" width="12" height="27"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfU-nK-55v">
+                                <rect key="frame" x="105.5" y="576" width="11.5" height="27"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transpose" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-SG-DUA">
+                                <rect key="frame" x="61.5" y="538" width="99" height="30"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb9-mO-8QQ">
+                                <rect key="frame" x="239" y="538" width="50.5" height="30"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.75294117650000003" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NKL-Pl-5h8" firstAttribute="top" secondItem="K31-jy-x4Q" secondAttribute="top" constant="22" id="AMc-iW-o4N"/>
+                            <constraint firstItem="eZV-A2-UcQ" firstAttribute="top" secondItem="kfU-nK-55v" secondAttribute="bottom" constant="15" id="Cgx-0Q-haT"/>
+                            <constraint firstItem="hoe-Hp-EhB" firstAttribute="top" secondItem="Gb9-mO-8QQ" secondAttribute="bottom" constant="8" id="DSJ-IL-IHL"/>
+                            <constraint firstItem="NKL-Pl-5h8" firstAttribute="leading" secondItem="K31-jy-x4Q" secondAttribute="leading" constant="16" id="FS2-LO-dHq"/>
+                            <constraint firstItem="kfU-nK-55v" firstAttribute="top" secondItem="S4d-SG-DUA" secondAttribute="bottom" constant="8" id="HIs-0Y-Rtf"/>
+                            <constraint firstItem="eZV-A2-UcQ" firstAttribute="leading" secondItem="K31-jy-x4Q" secondAttribute="leading" constant="64" id="HWS-SA-3KA"/>
+                            <constraint firstItem="hoe-Hp-EhB" firstAttribute="centerX" secondItem="tnY-VA-5Qh" secondAttribute="centerX" id="NFA-q7-1NR"/>
+                            <constraint firstItem="K31-jy-x4Q" firstAttribute="trailing" secondItem="NKL-Pl-5h8" secondAttribute="trailing" constant="16" id="YlV-Gr-2IC"/>
+                            <constraint firstItem="K31-jy-x4Q" firstAttribute="trailing" secondItem="tnY-VA-5Qh" secondAttribute="trailing" constant="64" id="bRq-dX-w25"/>
+                            <constraint firstItem="K31-jy-x4Q" firstAttribute="bottom" secondItem="tnY-VA-5Qh" secondAttribute="bottom" constant="20" id="bns-KZ-pgn"/>
+                            <constraint firstItem="K31-jy-x4Q" firstAttribute="trailing" secondItem="NKL-Pl-5h8" secondAttribute="trailing" constant="16" id="ejN-Ac-pGv"/>
+                            <constraint firstItem="S4d-SG-DUA" firstAttribute="centerX" secondItem="kfU-nK-55v" secondAttribute="centerX" id="ixQ-Qi-8qf"/>
+                            <constraint firstItem="K31-jy-x4Q" firstAttribute="bottom" secondItem="NKL-Pl-5h8" secondAttribute="bottom" constant="144" id="ssq-wX-yuW"/>
+                            <constraint firstItem="K31-jy-x4Q" firstAttribute="bottom" secondItem="eZV-A2-UcQ" secondAttribute="bottom" constant="20" id="ufy-lh-Wzx"/>
+                            <constraint firstItem="Gb9-mO-8QQ" firstAttribute="centerX" secondItem="hoe-Hp-EhB" secondAttribute="centerX" id="vuk-SX-XyF"/>
+                            <constraint firstItem="kfU-nK-55v" firstAttribute="centerX" secondItem="eZV-A2-UcQ" secondAttribute="centerX" id="w0O-86-fJW"/>
+                            <constraint firstItem="tnY-VA-5Qh" firstAttribute="top" secondItem="hoe-Hp-EhB" secondAttribute="bottom" constant="15" id="z3X-x4-wqj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="K31-jy-x4Q"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="capoStepper" destination="tnY-VA-5Qh" id="IaI-ev-21V"/>
+                        <outlet property="capoUILabel" destination="hoe-Hp-EhB" id="m3F-SH-bOA"/>
+                        <outlet property="chordCollection" destination="NKL-Pl-5h8" id="BK9-Nn-7UJ"/>
+                        <outlet property="transposeLabel" destination="kfU-nK-55v" id="t2w-lf-zz9"/>
+                        <outlet property="transposeStepper" destination="eZV-A2-UcQ" id="ZXa-hd-HUV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mpw-h3-XxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1012" y="154.27286356821591"/>
+        </scene>
+        <!--Play Song View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController storyboardIdentifier="PlaySongViewController" id="BV1-FR-VrT" customClass="PlaySongViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Wdd-sa-Zrc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </sceneKitView>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1916" y="154"/>
+        </scene>
+        <!--Post Song View Controller-->
+        <scene sceneID="HjX-Te-KUW">
+            <objects>
+                <viewController storyboardIdentifier="PostSongViewController" id="fCb-wW-Yfc" customClass="PostSongViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tmE-XP-aSA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6L-iH-FlS">
+                                <rect key="frame" x="320" y="619" width="39" height="35"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="k1u-ZG-huI" kind="show" id="u2M-Dx-XIV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEu-BY-R12">
+                                <rect key="frame" x="91.5" y="110" width="192" height="156"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="116"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MTg-1v-cmj">
+                                <rect key="frame" x="52" y="335" width="271" height="281"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="281" id="GTu-iX-F0U"/>
+                                    <constraint firstAttribute="width" constant="271" id="m9v-8Z-SWB"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8wL-jc-AiM">
+                                    <size key="itemSize" width="81" height="83"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChordScoreBox" id="xAF-Bj-zlj" customClass="ChordScoreUICollectionViewCell" customModule="JamSesh" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="81" height="83"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="81" height="83"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ovk-46-Z2w">
+                                                    <rect key="frame" x="8" y="0.0" width="64" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="ChordText"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="45"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fag-oQ-HPQ">
+                                                    <rect key="frame" x="26" y="53" width="29" height="23"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="chordScoreLabel" destination="fag-oQ-HPQ" id="lls-mk-Es6"/>
+                                            <outlet property="chordTextLabel" destination="Ovk-46-Z2w" id="Qst-km-jnQ"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="fCb-wW-Yfc" id="arR-9c-tjW"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfw-DU-h8e">
+                                <rect key="frame" x="169" y="243" width="37" height="23"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.43137254899999999" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zfw-DU-h8e" firstAttribute="bottom" secondItem="jEu-BY-R12" secondAttribute="bottom" id="5NJ-B1-UOc"/>
+                            <constraint firstItem="JXQ-pZ-8C7" firstAttribute="trailing" secondItem="R6L-iH-FlS" secondAttribute="trailing" constant="16" id="F4y-vp-gSd"/>
+                            <constraint firstItem="MTg-1v-cmj" firstAttribute="centerX" secondItem="JXQ-pZ-8C7" secondAttribute="centerX" id="GKI-qh-eM3"/>
+                            <constraint firstItem="JXQ-pZ-8C7" firstAttribute="bottom" secondItem="R6L-iH-FlS" secondAttribute="bottom" constant="13" id="UWv-Ec-mJ5"/>
+                            <constraint firstItem="zfw-DU-h8e" firstAttribute="centerX" secondItem="JXQ-pZ-8C7" secondAttribute="centerX" id="dpU-Uq-24u"/>
+                            <constraint firstItem="jEu-BY-R12" firstAttribute="centerX" secondItem="JXQ-pZ-8C7" secondAttribute="centerX" id="lDw-80-6Od"/>
+                            <constraint firstItem="jEu-BY-R12" firstAttribute="top" secondItem="JXQ-pZ-8C7" secondAttribute="top" constant="90" id="mcv-uD-JaB"/>
+                            <constraint firstItem="MTg-1v-cmj" firstAttribute="top" secondItem="jEu-BY-R12" secondAttribute="bottom" constant="69" id="qOg-pe-vfC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JXQ-pZ-8C7"/>
+                    </view>
+                    <connections>
+                        <outlet property="chordScoresCollection" destination="MTg-1v-cmj" id="RzT-Wl-kzB"/>
+                        <outlet property="totalScoreLabel" destination="jEu-BY-R12" id="obE-vg-Bl1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEL-UY-mor" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868" y="-640.02998500749629"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="happy" width="30" height="30"/>
+        <image name="play" width="30" height="30"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="5R5-AR-yfO"/>
+        <segue reference="u2M-Dx-XIV"/>
+    </inferredMetricsTieBreakers>
+</document>

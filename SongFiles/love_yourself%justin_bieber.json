@@ -1,0 +1,839 @@
+{
+    "artist": "Justin Bieber",
+    "capo": 4,
+    "chords": [
+        {
+            "chord": "",
+            "timestamp": 0.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 11.0
+        },
+        {
+            "chord": "B",
+            "timestamp": 11.8
+        },
+        {
+            "chord": "A",
+            "timestamp": 13.200000000000001
+        },
+        {
+            "chord": "",
+            "timestamp": 14.700000000000001
+        },
+        {
+            "chord": "E",
+            "timestamp": 16.8
+        },
+        {
+            "chord": "B",
+            "timestamp": 17.900000000000002
+        },
+        {
+            "chord": "",
+            "timestamp": 19.3
+        },
+        {
+            "chord": "E",
+            "timestamp": 20.6
+        },
+        {
+            "chord": "B",
+            "timestamp": 21.700000000000003
+        },
+        {
+            "chord": "A",
+            "timestamp": 22.6
+        },
+        {
+            "chord": "",
+            "timestamp": 24.200000000000003
+        },
+        {
+            "chord": "E",
+            "timestamp": 26.200000000000003
+        },
+        {
+            "chord": "B",
+            "timestamp": 27.6
+        },
+        {
+            "chord": "E",
+            "timestamp": 30.200000000000003
+        },
+        {
+            "chord": "B",
+            "timestamp": 31.400000000000002
+        },
+        {
+            "chord": "A",
+            "timestamp": 32.4
+        },
+        {
+            "chord": "E",
+            "timestamp": 33.300000000000004
+        },
+        {
+            "chord": "F#",
+            "timestamp": 34.800000000000004
+        },
+        {
+            "chord": "C#",
+            "timestamp": 36.0
+        },
+        {
+            "chord": "G#m",
+            "timestamp": 37.4
+        },
+        {
+            "chord": "E",
+            "timestamp": 38.900000000000006
+        },
+        {
+            "chord": "B",
+            "timestamp": 41.0
+        },
+        {
+            "chord": "A",
+            "timestamp": 42.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 43.1
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 44.400000000000006
+        },
+        {
+            "chord": "E",
+            "timestamp": 45.7
+        },
+        {
+            "chord": "B",
+            "timestamp": 47.0
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 48.300000000000004
+        },
+        {
+            "chord": "A",
+            "timestamp": 50.400000000000006
+        },
+        {
+            "chord": "E",
+            "timestamp": 51.6
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 54.0
+        },
+        {
+            "chord": "A",
+            "timestamp": 55.2
+        },
+        {
+            "chord": "E",
+            "timestamp": 56.5
+        },
+        {
+            "chord": "A",
+            "timestamp": 58.6
+        },
+        {
+            "chord": "E",
+            "timestamp": 61.400000000000006
+        },
+        {
+            "chord": "B",
+            "timestamp": 62.2
+        },
+        {
+            "chord": "E",
+            "timestamp": 63.2
+        },
+        {
+            "chord": "A",
+            "timestamp": 64.60000000000001
+        },
+        {
+            "chord": "B",
+            "timestamp": 66.2
+        },
+        {
+            "chord": "E",
+            "timestamp": 67.8
+        },
+        {
+            "chord": "B",
+            "timestamp": 69.7
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 70.8
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 71.60000000000001
+        },
+        {
+            "chord": "A",
+            "timestamp": 72.7
+        },
+        {
+            "chord": "E",
+            "timestamp": 73.4
+        },
+        {
+            "chord": "B",
+            "timestamp": 79.4
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 80.5
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 81.2
+        },
+        {
+            "chord": "E",
+            "timestamp": 83.10000000000001
+        },
+        {
+            "chord": "",
+            "timestamp": 86.7
+        },
+        {
+            "chord": "E",
+            "timestamp": 87.9
+        },
+        {
+            "chord": "B",
+            "timestamp": 88.80000000000001
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 90.0
+        },
+        {
+            "chord": "",
+            "timestamp": 91.30000000000001
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 92.5
+        },
+        {
+            "chord": "E",
+            "timestamp": 93.7
+        },
+        {
+            "chord": "B",
+            "timestamp": 94.80000000000001
+        },
+        {
+            "chord": "",
+            "timestamp": 96.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 97.30000000000001
+        },
+        {
+            "chord": "",
+            "timestamp": 101.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 102.9
+        },
+        {
+            "chord": "B",
+            "timestamp": 104.4
+        },
+        {
+            "chord": "E",
+            "timestamp": 107.0
+        },
+        {
+            "chord": "B",
+            "timestamp": 108.2
+        },
+        {
+            "chord": "A",
+            "timestamp": 109.10000000000001
+        },
+        {
+            "chord": "E",
+            "timestamp": 110.10000000000001
+        },
+        {
+            "chord": "F#",
+            "timestamp": 111.60000000000001
+        },
+        {
+            "chord": "C#",
+            "timestamp": 112.7
+        },
+        {
+            "chord": "G#m",
+            "timestamp": 114.10000000000001
+        },
+        {
+            "chord": "E",
+            "timestamp": 115.7
+        },
+        {
+            "chord": "B",
+            "timestamp": 117.80000000000001
+        },
+        {
+            "chord": "A",
+            "timestamp": 118.80000000000001
+        },
+        {
+            "chord": "E",
+            "timestamp": 119.9
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 121.2
+        },
+        {
+            "chord": "E",
+            "timestamp": 122.4
+        },
+        {
+            "chord": "B",
+            "timestamp": 123.80000000000001
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 125.0
+        },
+        {
+            "chord": "A",
+            "timestamp": 127.2
+        },
+        {
+            "chord": "E",
+            "timestamp": 128.4
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 130.8
+        },
+        {
+            "chord": "A",
+            "timestamp": 132.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 133.20000000000002
+        },
+        {
+            "chord": "A",
+            "timestamp": 135.5
+        },
+        {
+            "chord": "E",
+            "timestamp": 138.1
+        },
+        {
+            "chord": "B",
+            "timestamp": 139.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 140.0
+        },
+        {
+            "chord": "A",
+            "timestamp": 141.4
+        },
+        {
+            "chord": "B",
+            "timestamp": 143.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 144.6
+        },
+        {
+            "chord": "B",
+            "timestamp": 146.5
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 147.6
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 148.4
+        },
+        {
+            "chord": "A",
+            "timestamp": 149.5
+        },
+        {
+            "chord": "E",
+            "timestamp": 150.3
+        },
+        {
+            "chord": "B",
+            "timestamp": 156.20000000000002
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 157.4
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 158.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 159.8
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 167.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 169.20000000000002
+        },
+        {
+            "chord": "",
+            "timestamp": 182.70000000000002
+        },
+        {
+            "chord": "E",
+            "timestamp": 183.8
+        },
+        {
+            "chord": "B",
+            "timestamp": 184.60000000000002
+        },
+        {
+            "chord": "A",
+            "timestamp": 186.0
+        },
+        {
+            "chord": "",
+            "timestamp": 187.5
+        },
+        {
+            "chord": "E",
+            "timestamp": 189.70000000000002
+        },
+        {
+            "chord": "F#",
+            "timestamp": 190.60000000000002
+        },
+        {
+            "chord": "",
+            "timestamp": 192.10000000000002
+        },
+        {
+            "chord": "E",
+            "timestamp": 193.3
+        },
+        {
+            "chord": "",
+            "timestamp": 196.9
+        },
+        {
+            "chord": "E",
+            "timestamp": 199.3
+        },
+        {
+            "chord": "F#",
+            "timestamp": 200.10000000000002
+        },
+        {
+            "chord": "E",
+            "timestamp": 201.8
+        },
+        {
+            "chord": "B",
+            "timestamp": 204.10000000000002
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 205.10000000000002
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 206.0
+        },
+        {
+            "chord": "A",
+            "timestamp": 207.0
+        },
+        {
+            "chord": "E",
+            "timestamp": 207.9
+        },
+        {
+            "chord": "B",
+            "timestamp": 213.8
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 214.9
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 215.60000000000002
+        },
+        {
+            "chord": "E",
+            "timestamp": 217.4
+        },
+        {
+            "chord": "B",
+            "timestamp": 223.20000000000002
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 224.4
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 225.20000000000002
+        },
+        {
+            "chord": "A",
+            "timestamp": 226.20000000000002
+        },
+        {
+            "chord": "E",
+            "timestamp": 227.10000000000002
+        },
+        {
+            "chord": "B",
+            "timestamp": 233.0
+        },
+        {
+            "chord": "C#m",
+            "timestamp": 234.0
+        },
+        {
+            "chord": "F#m",
+            "timestamp": 234.8
+        },
+        {
+            "chord": "E",
+            "timestamp": 236.60000000000002
+        },
+        {
+            "chord": "",
+            "timestamp": 240.20000000000002
+        }
+    ],
+    "duration": 272.3,
+    "lyric_chord_duration_diff": 1,
+    "lyrics": [
+        {
+            "lyric": "JUSTIN BIEBER",
+            "timestamp": 4.11
+        },
+        {
+            "lyric": "LOVE YOURSELF",
+            "timestamp": 4.9399999999999995
+        },
+        {
+            "lyric": "",
+            "timestamp": 6.06
+        },
+        {
+            "lyric": "BY: MBECKS88",
+            "timestamp": 7.26
+        },
+        {
+            "lyric": "",
+            "timestamp": 8.56
+        },
+        {
+            "lyric": "For all the times that you rain on my parade",
+            "timestamp": 9.77
+        },
+        {
+            "lyric": "And all the clubs you get in using my name",
+            "timestamp": 13.67
+        },
+        {
+            "lyric": "You think you broke my heart, oh, girl for goodness' sake",
+            "timestamp": 18.32
+        },
+        {
+            "lyric": "You think I'm crying on my own. Well, I ain't",
+            "timestamp": 22.96
+        },
+        {
+            "lyric": "",
+            "timestamp": 27.7
+        },
+        {
+            "lyric": "And I didn't wanna write a song",
+            "timestamp": 28.07
+        },
+        {
+            "lyric": "'Cause I didn't want anyone thinking I still care. I don't,",
+            "timestamp": 30.21
+        },
+        {
+            "lyric": "But you still hit my phone up",
+            "timestamp": 34.2
+        },
+        {
+            "lyric": "And, baby, I be movin' on",
+            "timestamp": 37.64
+        },
+        {
+            "lyric": "And I think you should be somethin' I don't wanna hold back,",
+            "timestamp": 39.96
+        },
+        {
+            "lyric": "Maybe you should know that",
+            "timestamp": 44.42
+        },
+        {
+            "lyric": "",
+            "timestamp": 46.92
+        },
+        {
+            "lyric": "My mama don't like you and she likes everyone",
+            "timestamp": 47.39
+        },
+        {
+            "lyric": "And I never like to admit that I was wrong",
+            "timestamp": 51.84
+        },
+        {
+            "lyric": "And I've been so caught up in my job,",
+            "timestamp": 56.49
+        },
+        {
+            "lyric": "Didn't see what's going on",
+            "timestamp": 59.18
+        },
+        {
+            "lyric": "But now I know,",
+            "timestamp": 61.69
+        },
+        {
+            "lyric": "I'm better sleeping on my own",
+            "timestamp": 63.83
+        },
+        {
+            "lyric": "",
+            "timestamp": 66.06
+        },
+        {
+            "lyric": "'Cause if you like the way you look that much",
+            "timestamp": 66.61
+        },
+        {
+            "lyric": "Oh, baby, you should go and love yourself",
+            "timestamp": 71.07
+        },
+        {
+            "lyric": "And if you think that I'm still holdin' on to somethin'",
+            "timestamp": 76.09
+        },
+        {
+            "lyric": "You should go and love yourself",
+            "timestamp": 81.85
+        },
+        {
+            "lyric": "",
+            "timestamp": 85.1
+        },
+        {
+            "lyric": "And when you told me that you hated my friends",
+            "timestamp": 85.65
+        },
+        {
+            "lyric": "The only problem was with you and not them",
+            "timestamp": 90.39
+        },
+        {
+            "lyric": "And every time you told me my opinion was wrong",
+            "timestamp": 95.04
+        },
+        {
+            "lyric": "And tried to make me forget where I came from",
+            "timestamp": 99.87
+        },
+        {
+            "lyric": "",
+            "timestamp": 104.29
+        },
+        {
+            "lyric": "And I didn't wanna write a song",
+            "timestamp": 104.66
+        },
+        {
+            "lyric": "'Cause I didn't want anyone thinking I still care. I don't,",
+            "timestamp": 106.99
+        },
+        {
+            "lyric": "But you still hit my phone up",
+            "timestamp": 111.07
+        },
+        {
+            "lyric": "And, baby, I be movin' on",
+            "timestamp": 114.55
+        },
+        {
+            "lyric": "And I think you should be somethin' I don't wanna hold back,",
+            "timestamp": 116.55
+        },
+        {
+            "lyric": "Maybe you should know that",
+            "timestamp": 121.2
+        },
+        {
+            "lyric": "",
+            "timestamp": 123.8
+        },
+        {
+            "lyric": "My mama don't like you and she likes everyone",
+            "timestamp": 124.26
+        },
+        {
+            "lyric": "And I never like to admit that I was wrong",
+            "timestamp": 128.72
+        },
+        {
+            "lyric": "And I've been so caught up in my job,",
+            "timestamp": 133.27
+        },
+        {
+            "lyric": "Didn't see what's going on",
+            "timestamp": 136.24
+        },
+        {
+            "lyric": "But now I know,",
+            "timestamp": 138.38
+        },
+        {
+            "lyric": "I'm better sleeping on my own",
+            "timestamp": 140.61
+        },
+        {
+            "lyric": "",
+            "timestamp": 143.21
+        },
+        {
+            "lyric": "'Cause if you like the way you look that much",
+            "timestamp": 143.49
+        },
+        {
+            "lyric": "Oh, baby, you should go and love yourself",
+            "timestamp": 147.67
+        },
+        {
+            "lyric": "And if you think that I'm still holdin' on to somethin'",
+            "timestamp": 152.78
+        },
+        {
+            "lyric": "You should go and love yourself",
+            "timestamp": 158.53
+        },
+        {
+            "lyric": "",
+            "timestamp": 161.88
+        },
+        {
+            "lyric": "For all the times that you made me feel small",
+            "timestamp": 163.46
+        },
+        {
+            "lyric": "I fell in love. Now I feel nothin' at all",
+            "timestamp": 166.15
+        },
+        {
+            "lyric": "And never felt so low when I was vulnerable",
+            "timestamp": 168.57
+        },
+        {
+            "lyric": "Was I a fool to let you break down my walls",
+            "timestamp": 170.89
+        },
+        {
+            "lyric": "",
+            "timestamp": 173.02
+        },
+        {
+            "lyric": "For all the times that you made me feel small",
+            "timestamp": 173.3
+        },
+        {
+            "lyric": "I fell in love. Now I feel nothin' at all",
+            "timestamp": 175.72
+        },
+        {
+            "lyric": "And never felt so low when I was vulnerable",
+            "timestamp": 178.04
+        },
+        {
+            "lyric": "Was I a fool to let you break down my walls?",
+            "timestamp": 180.45
+        },
+        {
+            "lyric": "",
+            "timestamp": 182.13
+        },
+        {
+            "lyric": "'Cause if you like the way you look that much",
+            "timestamp": 182.5
+        },
+        {
+            "lyric": "Oh, baby, you should go and love yourself",
+            "timestamp": 186.58
+        },
+        {
+            "lyric": "And if you think that I'm still holdin' on to somethin'",
+            "timestamp": 191.09
+        },
+        {
+            "lyric": "You should go and love yourself",
+            "timestamp": 196.99
+        },
+        {
+            "lyric": "",
+            "timestamp": 199.96
+        },
+        {
+            "lyric": "'Cause if you like the way you look that much",
+            "timestamp": 200.79
+        },
+        {
+            "lyric": "Oh, baby, you should go and love yourself",
+            "timestamp": 205.53
+        },
+        {
+            "lyric": "And if you think (you think) that I'm (that I'm) still holdin' on (holdin' on) to somethin'",
+            "timestamp": 210.08
+        },
+        {
+            "lyric": "You should go and love yourself",
+            "timestamp": 216.17
+        },
+        {
+            "lyric": "",
+            "timestamp": 219.98
+        },
+        {
+            "lyric": "END",
+            "timestamp": 221.28
+        }
+    ],
+    "title": "Love Yourself"
+}

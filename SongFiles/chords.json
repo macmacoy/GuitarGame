@@ -1,0 +1,1346 @@
+{
+    "chords": {
+        "G#": [
+               {
+               "rootNote": 8,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "A": [
+              {
+              "rootNote": 9,
+              "quality": 1,
+              "intervals": 0
+              }
+              ],
+        "A#": [
+               {
+               "rootNote": 10,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "B": [
+              {
+              "rootNote": 11,
+              "quality": 1,
+              "intervals": 0
+              }
+              ],
+        "C": [
+              {
+              "rootNote": 0,
+              "quality": 1,
+              "intervals": 0
+              }
+              ],
+        "C#": [
+               {
+               "rootNote": 1,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "D": [
+              {
+              "rootNote": 2,
+              "quality": 1,
+              "intervals": 0
+              }
+              ],
+        "D#": [
+               {
+               "rootNote": 3,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "E": [
+              {
+              "rootNote": 4,
+              "quality": 1,
+              "intervals": 0
+              }
+              ],
+        "F": [
+              {
+              "rootNote": 5,
+              "quality": 1,
+              "intervals": 0
+              },
+              {
+              "rootNote": 5,
+              "quality": 1,
+              "intervals": 7
+              }
+              ],
+        "F#": [
+               {
+               "rootNote": 6,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "G": [
+              {
+              "rootNote": 7,
+              "quality": 1,
+              "intervals": 0
+              }
+              ],
+        "G#m": [
+                {
+                "rootNote": 4,
+                "quality": 1,
+                "intervals": 7
+                },
+                {
+                "rootNote": 8,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "Am": [
+               {
+               "rootNote": 9,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "A#m": [
+                {
+                "rootNote": 10,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "Bm": [
+               {
+               "rootNote": 11,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "Cm": [
+               {
+               "rootNote": 0,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "C#m": [
+                {
+                "rootNote": 1,
+                "quality": 0,
+                "intervals": 0
+                },
+                {
+                "rootNote": 1,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "Dm": [
+               {
+               "rootNote": 2,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "D#m": [
+                {
+                "rootNote": 3,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "Em": [
+               {
+               "rootNote": 4,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "Fm": [
+               {
+               "rootNote": 5,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "F#m": [
+                {
+                "rootNote": 6,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "Gm": [
+               {
+               "rootNote": 7,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "G#6": [
+                {
+                "rootNote": 8,
+                "quality": 1,
+                "intervals": 0
+                },
+                {
+                "rootNote": 5,
+                "quality": 0,
+                "intervals": 7
+                },
+                {
+                "rootNote": 8,
+                "quality": 1,
+                "intervals": 7
+                }
+                ],
+        "A6": [
+               {
+               "rootNote": 6,
+               "quality": 0,
+               "intervals": 0
+               },
+               {
+               "rootNote": 3,
+               "quality": 4,
+               "intervals": 0
+               }
+               ],
+        "A#6": [
+                {
+                "rootNote": 7,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "B6": [
+               {
+               "rootNote": 11,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "C6": [
+               {
+               "rootNote": 9,
+               "quality": 0,
+               "intervals": 7
+               }
+               ],
+        "C#6": [
+                {
+                "rootNote": 10,
+                "quality": 0,
+                "intervals": 0
+                },
+                {
+                "rootNote": 10,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "D6": [
+               {
+               "rootNote": 11,
+               "quality": 0,
+               "intervals": 7
+               }
+               ],
+        "D#6": [
+                {
+                "rootNote": 0,
+                "quality": 0,
+                "intervals": 0
+                },
+                {
+                "rootNote": 0,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "E6": [
+               {
+               "rootNote": 1,
+               "quality": 0,
+               "intervals": 0
+               },
+               {
+               "rootNote": 1,
+               "quality": 0,
+               "intervals": 7
+               }
+               ],
+        "F6": [
+               {
+               "rootNote": 2,
+               "quality": 0,
+               "intervals": 7
+               }
+               ],
+        "Gb6": [
+                {
+                "rootNote": 3,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "G6": [
+               {
+               "rootNote": 7,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "G#7": [
+                {
+                "rootNote": 8,
+                "quality": 3,
+                "intervals": 7
+                },
+                {
+                "rootNote": 5,
+                "quality": 0,
+                "intervals": 7
+                },
+                {
+                "rootNote": 8,
+                "quality": 1,
+                "intervals": 7
+                }
+                ],
+        "A7": [
+               {
+               "rootNote": 1,
+               "quality": 4,
+               "intervals": 0
+               }
+               ],
+        "A#7": [
+                {
+                "rootNote": 10,
+                "quality": 1,
+                "intervals": 0
+                },
+                {
+                "rootNote": 10,
+                "quality": 3,
+                "intervals": 7
+                }
+                ],
+        "B7": [
+               {
+               "rootNote": 11,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "C7": [
+               {
+               "rootNote": 0,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "C#7": [
+                {
+                "rootNote": 1,
+                "quality": 3,
+                "intervals": 7
+                }
+                ],
+        "D7": [
+               {
+               "rootNote": 2,
+               "quality": 3,
+               "intervals": 7
+               },
+               {
+               "rootNote": 6,
+               "quality": 4,
+               "intervals": 0
+               }
+               ],
+        "D#7": [
+                {
+                "rootNote": 3,
+                "quality": 3,
+                "intervals": 7
+                }
+                ],
+        "E7": [
+               {
+               "rootNote": 4,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "F7": [
+               {
+               "rootNote": 5,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "F#7": [
+                {
+                "rootNote": 6,
+                "quality": 3,
+                "intervals": 7
+                }
+                ],
+        "G7": [
+               {
+               "rootNote": 7,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "G#9": [
+                {
+                "rootNote": 3,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "A9": [
+               {
+               "rootNote": 1,
+               "quality": 4,
+               "intervals": 0
+               },
+               {
+               "rootNote": 1,
+               "quality": 0,
+               "intervals": 7
+               }
+               ],
+        "A#9": [
+                {
+                "rootNote": 0,
+                "quality": 2,
+                "intervals": 2
+                },
+                {
+                "rootNote": 7,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "B9": [
+               {
+               "rootNote": 3,
+               "quality": 4,
+               "intervals": 7
+               },
+               {
+               "rootNote": 3,
+               "quality": 0,
+               "intervals": 7
+               },
+               {
+               "rootNote": 11,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "C9": [
+               {
+               "rootNote": 0,
+               "quality": 3,
+               "intervals": 7
+               },
+               {
+               "rootNote": 7,
+               "quality": 0,
+               "intervals": 0
+               }
+               ],
+        "C#9": [
+                {
+                "rootNote": 1,
+                "quality": 3,
+                "intervals": 7
+                }
+                ],
+        "D9": [
+               {
+               "rootNote": 2,
+               "quality": 1,
+               "intervals": 0
+               },
+               {
+               "rootNote": 2,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "D#9": [
+                {
+                "rootNote": 3,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "E9": [
+               {
+               "rootNote": 8,
+               "quality": 4,
+               "intervals": 0
+               }
+               ],
+        "F9": [
+               {
+               "rootNote": 5,
+               "quality": 3,
+               "intervals": 7
+               }
+               ],
+        "F#9": [
+                {
+                "rootNote": 6,
+                "quality": 3,
+                "intervals": 7
+                }
+                ],
+        "G9": [
+               {
+               "rootNote": 7,
+               "quality": 1,
+               "intervals": 0
+               },
+               {
+               "rootNote": 11,
+               "quality": 4,
+               "intervals": 0
+               }
+               ],
+        "G#m6": [
+                 {
+                 "rootNote": 8,
+                 "quality": 0,
+                 "intervals": 0
+                 }
+                 ],
+        "Am6": [
+                {
+                "rootNote": 9,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "A#m6": [
+                 {
+                 "rootNote": 7,
+                 "quality": 4,
+                 "intervals": 0
+                 },
+                 {
+                 "rootNote": 10,
+                 "quality": 0,
+                 "intervals": 0
+                 }
+                 ],
+        "Bm6": [
+                {
+                "rootNote": 11,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "Cm6": [
+                {
+                "rootNote": 9,
+                "quality": 4,
+                "intervals": 0
+                }
+                ],
+        "C#m6": [
+                 {
+                 "rootNote": 10,
+                 "quality": 4,
+                 "intervals": 0
+                 }
+                 ],
+        "Dm6": [
+                {
+                "rootNote": 11,
+                "quality": 4,
+                "intervals": 0
+                },
+                {
+                "rootNote": 2,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "D#m6": [
+                 {
+                 "rootNote": 0,
+                 "quality": 4,
+                 "intervals": 0
+                 },
+                 {
+                 "rootNote": 3,
+                 "quality": 0,
+                 "intervals": 0
+                 }
+                 ],
+        "Em6": [
+                {
+                "rootNote": 1,
+                "quality": 4,
+                "intervals": 0
+                }
+                ],
+        "Fm6": [
+                {
+                "rootNote": 2,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "F#m6": [
+                 {
+                 "rootNote": 3,
+                 "quality": 0,
+                 "intervals": 7
+                 }
+                 ],
+        "Gm6": [
+                {
+                "rootNote": 4,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "G#m7": [
+                 {
+                 "rootNote": 8,
+                 "quality": 0,
+                 "intervals": 7
+                 }
+                 ],
+        "Am7": [
+                {
+                "rootNote": 9,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "A#m7": [
+                 {
+                 "rootNote": 10,
+                 "quality": 0,
+                 "intervals": 0
+                 },
+                 {
+                 "rootNote": 10,
+                 "quality": 0,
+                 "intervals": 7
+                 }
+                 ],
+        "Bm7": [
+                {
+                "rootNote": 2,
+                "quality": 1,
+                "intervals": 0
+                }
+                ],
+        "Cm7": [
+                {
+                "rootNote": 0,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "C#m7": [
+                 {
+                 "rootNote": 10,
+                 "quality": 4,
+                 "intervals": 0
+                 },
+                 {
+                 "rootNote": 1,
+                 "quality": 0,
+                 "intervals": 0
+                 }
+                 ],
+        "Dm7": [
+                {
+                "rootNote": 2,
+                "quality": 0,
+                "intervals": 7
+                },
+                {
+                "rootNote": 2,
+                "quality": 0,
+                "intervals": 0
+                }
+                ],
+        "D#m7": [
+                 {
+                 "rootNote": 3,
+                 "quality": 0,
+                 "intervals": 7
+                 }
+                 ],
+        "Em7": [
+                {
+                "rootNote": 4,
+                "quality": 0,
+                "intervals": 7
+                },
+                {
+                "rootNote": 7,
+                "quality": 1,
+                "intervals": 0
+                }
+                ],
+        "Fm7": [
+                {
+                "rootNote": 5,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "F#m7": [
+                 {
+                 "rootNote": 6,
+                 "quality": 0,
+                 "intervals": 0
+                 }
+                 ],
+        "Gm7": [
+                {
+                "rootNote": 7,
+                "quality": 0,
+                "intervals": 7
+                }
+                ],
+        "G#maj7": [
+                   {
+                   "rootNote": 8,
+                   "quality": 1,
+                   "intervals": 7
+                   }
+                   ],
+        "Amaj7": [
+                  {
+                  "rootNote": 1,
+                  "quality": 0,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 9,
+                  "quality": 1,
+                  "intervals": 7
+                  },
+                  {
+                  "rootNote": 1,
+                  "quality": 0,
+                  "intervals": 7
+                  }
+                  ],
+        "A#maj7": [
+                   {
+                   "rootNote": 10,
+                   "quality": 1,
+                   "intervals": 0
+                   },
+                   {
+                   "rootNote": 10,
+                   "quality": 1,
+                   "intervals": 7
+                   }
+                   ],
+        "Bmaj7": [
+                  {
+                  "rootNote": 3,
+                  "quality": 0,
+                  "intervals": 0
+                  }
+                  ],
+        "Cmaj7": [
+                  {
+                  "rootNote": 4,
+                  "quality": 0,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 0,
+                  "quality": 1,
+                  "intervals": 7
+                  }
+                  ],
+        "C#maj7": [
+                   {
+                   "rootNote": 2,
+                   "quality": 1,
+                   "intervals": 7
+                   }
+                   ],
+        "Dmaj7": [
+                  {
+                  "rootNote": 2,
+                  "quality": 1,
+                  "intervals": 7
+                  }
+                  ],
+        "D#maj7": [
+                   {
+                   "rootNote": 3,
+                   "quality": 1,
+                   "intervals": 7
+                   }
+                   ],
+        "Emaj7": [
+                  {
+                  "rootNote": 4,
+                  "quality": 1,
+                  "intervals": 7
+                  },
+                  {
+                  "rootNote": 8,
+                  "quality": 0,
+                  "intervals": 0
+                  }
+                  ],
+        "Fmaj7": [
+                  {
+                  "rootNote": 5,
+                  "quality": 1,
+                  "intervals": 7
+                  }
+                  ],
+        "Gbmaj7": [
+                   {
+                   "rootNote": 10,
+                   "quality": 0,
+                   "intervals": 0
+                   },
+                   {
+                   "rootNote": 6,
+                   "quality": 1,
+                   "intervals": 7
+                   }
+                   ],
+        "Gmaj7": [
+                  {
+                  "rootNote": 7,
+                  "quality": 1,
+                  "intervals": 7
+                  },
+                  {
+                  "rootNote": 11,
+                  "quality": 0,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 11,
+                  "quality": 0,
+                  "intervals": 7
+                  }
+                  ],
+        "G#sus": [
+                  {
+                  "rootNote": 1,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Asus": [
+                 {
+                 "rootNote": 2,
+                 "quality": 2,
+                 "intervals": 2
+                 }
+                 ],
+        "A#sus": [
+                  {
+                  "rootNote": 10,
+                  "quality": 1,
+                  "intervals": 0
+                  }
+                  ],
+        "Bsus": [
+                 {
+                 "rootNote": 4,
+                 "quality": 2,
+                 "intervals": 2
+                 }
+                 ],
+        "Csus": [
+                 {
+                 "rootNote": 0,
+                 "quality": 1,
+                 "intervals": 0
+                 },
+                 {
+                 "rootNote": 0,
+                 "quality": 2,
+                 "intervals": 2
+                 }
+                 ],
+        "C#sus": [
+                  {
+                  "rootNote": 3,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Dsus": [
+                 {
+                 "rootNote": 7,
+                 "quality": 2,
+                 "intervals": 2
+                 },
+                 {
+                 "rootNote": 2,
+                 "quality": 1,
+                 "intervals": 0
+                 }
+                 ],
+        "D#sus": [
+                  {
+                  "rootNote": 3,
+                  "quality": 1,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 3,
+                  "quality": 1,
+                  "intervals": 7
+                  }
+                  ],
+        "Esus": [
+                 {
+                 "rootNote": 9,
+                 "quality": 2,
+                 "intervals": 2
+                 }
+                 ],
+        "Fsus": [
+                 {
+                 "rootNote": 10,
+                 "quality": 2,
+                 "intervals": 2
+                 }
+                 ],
+        "Gbsus": [
+                  {
+                  "rootNote": 11,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Gsus": [
+                 {
+                 "rootNote": 0,
+                 "quality": 2,
+                 "intervals": 2
+                 }
+                 ],
+        "G#sus4": [
+                   {
+                   "rootNote": 1,
+                   "quality": 2,
+                   "intervals": 2
+                   }
+                   ],
+        "Asus4": [
+                  {
+                  "rootNote": 2,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "A#sus4": [
+                   {
+                   "rootNote": 10,
+                   "quality": 1,
+                   "intervals": 0
+                   }
+                   ],
+        "Bsus4": [
+                  {
+                  "rootNote": 4,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Csus4": [
+                  {
+                  "rootNote": 0,
+                  "quality": 1,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 0,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "C#sus4": [
+                   {
+                   "rootNote": 3,
+                   "quality": 2,
+                   "intervals": 2
+                   }
+                   ],
+        "Dsus4": [
+                  {
+                  "rootNote": 7,
+                  "quality": 2,
+                  "intervals": 2
+                  },
+                  {
+                  "rootNote": 2,
+                  "quality": 1,
+                  "intervals": 0
+                  }
+                  ],
+        "D#sus4": [
+                   {
+                   "rootNote": 3,
+                   "quality": 1,
+                   "intervals": 0
+                   },
+                   {
+                   "rootNote": 3,
+                   "quality": 1,
+                   "intervals": 7
+                   }
+                   ],
+        "Esus4": [
+                  {
+                  "rootNote": 9,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Fsus4": [
+                  {
+                  "rootNote": 10,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Gbsus4": [
+                   {
+                   "rootNote": 11,
+                   "quality": 2,
+                   "intervals": 2
+                   }
+                   ],
+        "Gsus4": [
+                  {
+                  "rootNote": 0,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "G#sus2": [
+                   {
+                   "rootNote": 1,
+                   "quality": 2,
+                   "intervals": 2
+                   }
+                   ],
+        "Asus2": [
+                  {
+                  "rootNote": 9,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "A#sus2": [
+                   {
+                   "rootNote": 10,
+                   "quality": 1,
+                   "intervals": 0
+                   }
+                   ],
+        "Bsus2": [
+                  {
+                  "rootNote": 11,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Csus2": [
+                  {
+                  "rootNote": 0,
+                  "quality": 1,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 0,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "C#sus2": [
+                   {
+                   "rootNote": 3,
+                   "quality": 2,
+                   "intervals": 2
+                   }
+                   ],
+        "Dsus2": [
+                  {
+                  "rootNote": 2,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "D#sus2": [
+                   {
+                   "rootNote": 3,
+                   "quality": 1,
+                   "intervals": 0
+                   },
+                   {
+                   "rootNote": 3,
+                   "quality": 1,
+                   "intervals": 7
+                   }
+                   ],
+        "Esus2": [
+                  {
+                  "rootNote": 4,
+                  "quality": 2,
+                  "intervals": 2
+                  },
+                  {
+                  "rootNote": 11,
+                  "quality": 1,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 11,
+                  "quality": 0,
+                  "intervals": 0
+                  }
+                  ],
+        "Fsus2": [
+                  {
+                  "rootNote": 5,
+                  "quality": 2,
+                  "intervals": 2
+                  }
+                  ],
+        "Gbsus2": [
+                   {
+                   "rootNote": 11,
+                   "quality": 2,
+                   "intervals": 2
+                   }
+                   ],
+        "Gsus2": [
+                  {
+                  "rootNote": 7,
+                  "quality": 2,
+                  "intervals": 2
+                  },
+                  {
+                  "rootNote": 7,
+                  "quality": 1,
+                  "intervals": 0
+                  }
+                  ],
+        "G#add9": [
+                   {
+                   "rootNote": 8,
+                   "quality": 1,
+                   "intervals": 0
+                   }
+                   ],
+        "Aadd9": [
+                  {
+                  "rootNote": 9,
+                  "quality": 1,
+                  "intervals": 0
+                  }
+                  ],
+        "A#add9": [
+                   {
+                   "rootNote": 10,
+                   "quality": 1,
+                   "intervals": 0
+                   }
+                   ],
+        "Badd9": [
+                  {
+                  "rootNote": 3,
+                  "quality": 5,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 3,
+                  "quality": 3,
+                  "intervals": 7
+                  }
+                  ],
+        "Cadd9": [
+                  {
+                  "rootNote": 0,
+                  "quality": 1,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 4,
+                  "quality": 0,
+                  "intervals": 7
+                  }
+                  ],
+        "C#add9": [
+                   {
+                   "rootNote": 1,
+                   "quality": 1,
+                   "intervals": 0
+                   }
+                   ],
+        "Dadd9": [
+                  {
+                  "rootNote": 2,
+                  "quality": 1,
+                  "intervals": 0
+                  }
+                  ],
+        "D#add9": [
+                   {
+                   "rootNote": 3,
+                   "quality": 1,
+                   "intervals": 0
+                   }
+                   ],
+        "Eadd9": [
+                  {
+                  "rootNote": 4,
+                  "quality": 1,
+                  "intervals": 0
+                  }
+                  ],
+        "Fadd9": [
+                  {
+                  "rootNote": 5,
+                  "quality": 1,
+                  "intervals": 0
+                  },
+                  {
+                  "rootNote": 5,
+                  "quality": 1,
+                  "intervals": 7
+                  }
+                  ],
+        "F#add9": [
+                   {
+                   "rootNote": 6,
+                   "quality": 1,
+                   "intervals": 0
+                   }
+                   ],
+        "Gadd9": [
+                  {
+                  "rootNote": 7,
+                  "quality": 1,
+                  "intervals": 0
+                  }
+                  ],
+        "G#2": [
+                {
+                "rootNote": 8,
+                "quality": 1,
+                "intervals": 0
+                }
+                ],
+        "A2": [
+               {
+               "rootNote": 9,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "A#2": [
+                {
+                "rootNote": 10,
+                "quality": 1,
+                "intervals": 0
+                }
+                ],
+        "B2": [
+               {
+               "rootNote": 11,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "C2": [
+               {
+               "rootNote": 0,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "C#2": [
+                {
+                "rootNote": 1,
+                "quality": 1,
+                "intervals": 0
+                }
+                ],
+        "D2": [
+               {
+               "rootNote": 2,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "D#2": [
+                {
+                "rootNote": 3,
+                "quality": 1,
+                "intervals": 0
+                }
+                ],
+        "E2": [
+               {
+               "rootNote": 4,
+               "quality": 1,
+               "intervals": 0
+               }
+               ],
+        "F2": [
+               {
+               "rootNote": 5,
+               "quality": 1,
+               "intervals": 0
+               },
+               {
+               "rootNote": 5,
+               "quality": 1,
+               "intervals": 7
+               }
+               ],
+        "F#2": [
+                {
+                "rootNote": 6,
+                "quality": 1,
+                "intervals": 0
+                }
+                ],
+        "G2": [
+               {
+               "rootNote": 7,
+               "quality": 1,
+               "intervals": 0
+               }
+               ]
+    }
+}
