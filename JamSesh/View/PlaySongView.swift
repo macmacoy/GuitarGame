@@ -39,6 +39,7 @@ class PlaySongView {
         self.gameplaySongPlayer = gameplaySongPlayer
         self.viewController = viewController
         initMainScene()
+        UIApplication.shared.isIdleTimerDisabled = true
     }
     
     func initMainScene() {

@@ -117,6 +117,7 @@ class SongPlayer {
             }
         }
         assert(false, "bad logic in SongPlayer.currentLyricIndex")
+        return -1
     }
     
     func now() -> Double {

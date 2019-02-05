@@ -1,0 +1,6 @@
+I am in talks with the owners of
+    Chromagram.h
+    Chromagram.cpp
+    ChordDetector.h
+    ChordDetector.cpp
+about getting a commercial license. This app will not be release beyond Beta until I have licensed those files.
