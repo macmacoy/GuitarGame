@@ -62,6 +62,8 @@
 		45DF882C21CDDF3800ABDBF8 /* PlayedSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DF882B21CDDF3800ABDBF8 /* PlayedSongsViewController.swift */; };
 		45E539CF21E159EF008F4DAB /* FileSystemConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E539CE21E159EF008F4DAB /* FileSystemConstants.swift */; };
 		45E703ED21CEB1FD009EC74A /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E703EC21CEB1FD009EC74A /* SongTableViewCell.swift */; };
+		45FDC5C72246B6CE0087B188 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDC5C62246B6CE0087B188 /* InfoViewController.swift */; };
+		45FDC5C92246BC7F0087B188 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDC5C82246BC7F0087B188 /* EmojiTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,8 @@
 		45DF882B21CDDF3800ABDBF8 /* PlayedSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayedSongsViewController.swift; sourceTree = "<group>"; };
 		45E539CE21E159EF008F4DAB /* FileSystemConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemConstants.swift; sourceTree = "<group>"; };
 		45E703EC21CEB1FD009EC74A /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		45FDC5C62246B6CE0087B188 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		45FDC5C82246BC7F0087B188 /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +279,7 @@
 				4595726521D6D64D006C6A4F /* ChordChartView.swift */,
 				454F52B421DC5F78000194DC /* LoadingScreen.swift */,
 				458954F821DEE22900610E38 /* ChordScoreUICollectionViewCell.swift */,
+				45FDC5C82246BC7F0087B188 /* EmojiTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				45DF882B21CDDF3800ABDBF8 /* PlayedSongsViewController.swift */,
 				4534E76A21E1375800F9B13F /* SignUpViewController.swift */,
 				45E539CE21E159EF008F4DAB /* FileSystemConstants.swift */,
+				45FDC5C62246B6CE0087B188 /* InfoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -506,6 +512,7 @@
 				452CAEF721A64988008FED24 /* Song.swift in Sources */,
 				45DF882C21CDDF3800ABDBF8 /* PlayedSongsViewController.swift in Sources */,
 				452CAEF421A64932008FED24 /* ChordDetector.cpp in Sources */,
+				45FDC5C72246B6CE0087B188 /* InfoViewController.swift in Sources */,
 				452CAF0E21A64A77008FED24 /* ChordSCNNodeFactory.swift in Sources */,
 				452CAF1221A64AA9008FED24 /* PlaySongViewController.swift in Sources */,
 				45B4CC9E21AD00AA00DBC2B4 /* SongSearchViewController.swift in Sources */,
@@ -521,6 +528,7 @@
 				452CAF0921A64A4A008FED24 /* ViewConstants.swift in Sources */,
 				455A20F521D18FF000B104A8 /* EvenUICollectionViewFlowLayout.swift in Sources */,
 				45DF880421B220A900ABDBF8 /* PreSongChordViewFactory.swift in Sources */,
+				45FDC5C92246BC7F0087B188 /* EmojiTextField.swift in Sources */,
 				454F52B521DC5F78000194DC /* LoadingScreen.swift in Sources */,
 				455A20F021CF2E7F00B104A8 /* PlayedSongsTypeTableViewCell.swift in Sources */,
 				452CAEF221A648F4008FED24 /* Chromagram.cpp in Sources */,

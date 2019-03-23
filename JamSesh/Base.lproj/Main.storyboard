@@ -13,7 +13,7 @@
         <!--Main Menu View Controller-->
         <scene sceneID="kTA-iE-Snf">
             <objects>
-                <navigationController id="k1u-ZG-huI" customClass="MainMenuViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainMenu" id="k1u-ZG-huI" customClass="MainMenuViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="24u-d7-y3e">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -102,7 +102,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="ArZ-ks-GLb">
             <objects>
-                <tabBarController storyboardIdentifier="MainMenu" id="oj0-Fr-q8S" sceneMemberID="viewController">
+                <tabBarController id="oj0-Fr-q8S" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Ofr-dc-Ijm"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rPP-ct-6NT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -119,6 +119,61 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GnP-qO-b5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-775" y="134"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="Bby-lF-1yv">
+            <objects>
+                <viewController storyboardIdentifier="InfoView" id="g3F-ya-Cel" customClass="InfoViewController" customModule="JamSesh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JaY-X7-U3Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metronome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6B-Qb-hKP">
+                                <rect key="frame" x="128.5" y="137" width="118" height="33"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Mac Macoy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOn-rg-ADp">
+                                <rect key="frame" x="57" y="286.5" width="261.5" height="36.5"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Rights Reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTa-8m-RLx">
+                                <rect key="frame" x="104" y="331" width="167" height="27"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="10j-yr-xdX">
+                                <rect key="frame" x="163" y="98" width="51" height="31"/>
+                                <color key="onTintColor" red="0.74382072687149048" green="0.48758776052074132" blue="0.21398860520286631" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="metronomeToggleChanged:" destination="g3F-ya-Cel" eventType="valueChanged" id="YEE-9l-ErO"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LOn-rg-ADp" firstAttribute="centerX" secondItem="hQt-7f-qDP" secondAttribute="centerX" id="8wP-Nu-iF3"/>
+                            <constraint firstItem="V6B-Qb-hKP" firstAttribute="centerX" secondItem="hQt-7f-qDP" secondAttribute="centerX" id="8yg-P9-CLW"/>
+                            <constraint firstItem="qTa-8m-RLx" firstAttribute="centerX" secondItem="hQt-7f-qDP" secondAttribute="centerX" id="FFz-XL-6cs"/>
+                            <constraint firstItem="LOn-rg-ADp" firstAttribute="top" secondItem="10j-yr-xdX" secondAttribute="bottom" constant="157.5" id="LCw-Tc-RDe"/>
+                            <constraint firstItem="hQt-7f-qDP" firstAttribute="bottom" secondItem="LOn-rg-ADp" secondAttribute="bottom" constant="295" id="Ugb-uK-DUL"/>
+                            <constraint firstItem="10j-yr-xdX" firstAttribute="centerX" secondItem="hQt-7f-qDP" secondAttribute="centerX" id="VSt-zH-Zdz"/>
+                            <constraint firstItem="LOn-rg-ADp" firstAttribute="top" secondItem="V6B-Qb-hKP" secondAttribute="bottom" constant="116.5" id="qH5-eN-0sw"/>
+                            <constraint firstItem="qTa-8m-RLx" firstAttribute="top" secondItem="LOn-rg-ADp" secondAttribute="bottom" constant="8" id="y9i-fi-6Wh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hQt-7f-qDP"/>
+                    </view>
+                    <connections>
+                        <outlet property="metronomeToggle" destination="10j-yr-xdX" id="S24-fe-PVH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UzI-S0-6a7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1647.2" y="1047.5262368815593"/>
         </scene>
         <!--Played Songs-->
         <scene sceneID="nEh-XT-VGc">
@@ -177,21 +232,45 @@
                                     <outlet property="delegate" destination="R6j-gt-0do" id="Hdo-I2-BHa"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-YG-fel">
-                                <rect key="frame" x="128" y="116" width="119.5" height="30"/>
-                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-YG-fel">
+                                <rect key="frame" x="95.5" y="116" width="184.5" height="46"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiS-3Z-dpL">
+                                <rect key="frame" x="337" y="40" width="22" height="22"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="g3F-ya-Cel" kind="show" id="VeO-0N-zq9"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="🎸" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k5l-rn-RaJ" customClass="EmojiTextField" customModule="JamSesh" customModuleProvider="target">
+                                <rect key="frame" x="126" y="170" width="123" height="114"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="TQH-Rj-R9b"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="95"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="R6j-gt-0do" id="mxn-32-jS1"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
+                            <constraint firstItem="OKr-7v-HZU" firstAttribute="trailing" secondItem="LiS-3Z-dpL" secondAttribute="trailing" constant="16" id="2SD-Pp-cII"/>
                             <constraint firstItem="OKr-7v-HZU" firstAttribute="bottom" secondItem="XqX-H9-wkP" secondAttribute="bottom" id="JWI-5a-vfD"/>
                             <constraint firstItem="XqX-H9-wkP" firstAttribute="leading" secondItem="OKr-7v-HZU" secondAttribute="leading" id="KIc-tO-Bxa"/>
                             <constraint firstItem="XqX-H9-wkP" firstAttribute="top" secondItem="OKr-7v-HZU" secondAttribute="top" priority="1" constant="374" id="Qh7-L8-3w9"/>
                             <constraint firstItem="PYv-YG-fel" firstAttribute="top" secondItem="OKr-7v-HZU" secondAttribute="top" constant="96" id="ehr-Mm-1RN"/>
+                            <constraint firstItem="k5l-rn-RaJ" firstAttribute="top" secondItem="PYv-YG-fel" secondAttribute="bottom" constant="8" id="fgw-RZ-zEa"/>
+                            <constraint firstItem="k5l-rn-RaJ" firstAttribute="centerX" secondItem="OKr-7v-HZU" secondAttribute="centerX" id="kEp-RY-b4c"/>
                             <constraint firstItem="OKr-7v-HZU" firstAttribute="trailing" secondItem="XqX-H9-wkP" secondAttribute="trailing" id="nbO-V5-FaL"/>
                             <constraint firstItem="PYv-YG-fel" firstAttribute="centerX" secondItem="OKr-7v-HZU" secondAttribute="centerX" id="rJV-1m-35O"/>
+                            <constraint firstItem="LiS-3Z-dpL" firstAttribute="top" secondItem="OKr-7v-HZU" secondAttribute="top" constant="20" id="t4D-Uu-pa3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OKr-7v-HZU"/>
                     </view>
@@ -199,6 +278,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="playedSongsTypesTable" destination="XqX-H9-wkP" id="JC1-Wd-B6B"/>
+                        <outlet property="playerEmoji" destination="k5l-rn-RaJ" id="63f-DE-DNr"/>
                         <outlet property="playerNameLabel" destination="PYv-YG-fel" id="MLG-Cp-oKF"/>
                     </connections>
                 </viewController>
@@ -638,7 +718,7 @@
         <image name="play" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5R5-AR-yfO"/>
+        <segue reference="Vh6-hB-meu"/>
         <segue reference="ZNp-Sh-Ei9"/>
     </inferredMetricsTieBreakers>
 </document>

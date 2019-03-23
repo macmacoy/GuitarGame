@@ -20,13 +20,13 @@ class ViewConstants {
     
     // lyrics
     var lyricRectHeight: CGFloat {
-        return CGFloat(screenHeight/5)
+        return CGFloat(screenHeight/4)
     }
     var lyricStartingRect: CGRect {
         let width = screenWidth/1.25
         let height = lyricRectHeight
         let x = screenWidth/2 - width/2
-        let y = screenHeight/10
+        let y = screenHeight/18
         return CGRect(x: x, y: y, width: width, height: height)
     }
     let lyricAlphaRange = CGFloat(0.4)...CGFloat(1.0)

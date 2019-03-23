@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var banner: UILabel!
     
@@ -23,6 +23,12 @@ class SignUpViewController: UIViewController {
         // make button rounded
         playButton.layer.cornerRadius = 10; // this value vary as per your desire
         playButton.clipsToBounds = true;
+        
+        // so hitting return will go to next text field
+        firstNameText.delegate = self
+        firstNameText.tag = 0
+        emailText.delegate = self
+        emailText.tag = 1
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
@@ -68,6 +74,20 @@ class SignUpViewController: UIViewController {
         else {
             print("error calling create player api")
         }
+    }
+    
+    // UITextFieldDelegate function
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+        // Try to find next responder
+        if let nextField = textField.superview?.viewWithTag(textField.tag + 1) as? UITextField {
+            nextField.becomeFirstResponder()
+        } else {
+            // Not found, so remove keyboard.
+            textField.resignFirstResponder()
+        }
+        // Do not add a line break
+        return false
     }
     
 }

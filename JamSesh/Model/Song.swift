@@ -93,6 +93,11 @@ class Song {
         
         // adjust duration
         duration = duration + Song.walkUpTime + Song.walkAwayTime
+        
+        // initial transpose
+        if let transpose = songDict["transpose"] {
+            self.transpose(transpose: transpose as! Int)
+        }
     }
     
     func incrementCapo() {

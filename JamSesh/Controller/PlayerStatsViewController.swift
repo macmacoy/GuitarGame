@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var playerNameLabel: UILabel!
     
@@ -18,6 +18,7 @@ class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITabl
     private var learningSongs = [(song: String, artist: String, score: Int)]()
     
     @IBOutlet weak var playedSongsTypesTable: UITableView!
+    @IBOutlet weak var playerEmoji: EmojiTextField!
     
     private let colors = Colors()
     
@@ -34,6 +35,8 @@ class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITabl
         setBackground()
         
         playerNameLabel.text = Player.getPlayer().name
+        
+        playerEmoji.addTarget(self, action: "textFieldDidChange:", for: UIControl.Event.editingChanged)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -88,8 +91,8 @@ class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITabl
             
             // set text
             let strokeTextAttributes: [NSAttributedString.Key : Any] = [
-                .strokeColor : UIColor.white,
-                .foregroundColor : colors.green,
+                .strokeColor : colors.green,
+                .foregroundColor : UIColor.white,
                 .strokeWidth : -4.0,
             ]
             cell.songCountLabel.attributedText = NSAttributedString(string: String(masteredSongs.count), attributes: strokeTextAttributes)
@@ -103,8 +106,8 @@ class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITabl
             
             // set text
             let strokeTextAttributes: [NSAttributedString.Key : Any] = [
-                .strokeColor : UIColor.white,
-                .foregroundColor : colors.blue,
+                .strokeColor : colors.blue,
+                .foregroundColor : UIColor.white,
                 .strokeWidth : -4.0,
                 ]
             cell.songCountLabel.attributedText = NSAttributedString(string: String(gettingBetterSongs.count), attributes: strokeTextAttributes)
@@ -118,8 +121,8 @@ class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITabl
             
             // set text
             let strokeTextAttributes: [NSAttributedString.Key : Any] = [
-                .strokeColor : UIColor.white,
-                .foregroundColor : colors.orange,
+                .strokeColor : colors.orange,
+                .foregroundColor : UIColor.white,
                 .strokeWidth : -4.0,
                 ]
             cell.songCountLabel.attributedText = NSAttributedString(string: String(learningSongs.count), attributes: strokeTextAttributes)
@@ -143,6 +146,18 @@ class PlayerStatsViewController: UIViewController, UITableViewDataSource, UITabl
         gradientLayer.endPoint = CGPoint(x: 0, y: 1)
         gradientLayer.frame = view.bounds
         view.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
+    // UITextFieldDelegate functions
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.text = ""
+    }
+    
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        print("here")
+        if textField.text!.count > 0 {
+            textField.resignFirstResponder()
+        }
     }
     
 }

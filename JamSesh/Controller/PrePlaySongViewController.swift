@@ -47,6 +47,8 @@ class PrePlaySongViewController: UIViewController, UICollectionViewDataSource, U
         layout.itemSize = menuViewConstants.prePlayChordUICollectionViewCellSize(uiCollectionViewSize: chordCollection.bounds)
         chordCollection.collectionViewLayout = layout
         capoStepper.maximumValue = 12
+        transposeStepper.minimumValue = -12
+        transposeStepper.maximumValue = 12
         
         let layer = chordCollection.layer
         

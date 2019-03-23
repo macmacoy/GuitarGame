@@ -16,10 +16,13 @@ class SongPlayer {
     private(set) var paused = false
     private var pausedAt = Date()
     private(set) var metronone: Metronome!
+    public static var metronomeOn = false
     
     internal init(song: Song) {
         self.song = song
-        self.metronone = Metronome(beats: song.beats)
+        if SongPlayer.metronomeOn {
+            self.metronone = Metronome(beats: song.beats)
+        }
     }
     
     func play() {
@@ -31,7 +34,9 @@ class SongPlayer {
             start = start + (-pausedAt.timeIntervalSince(Date()))
             paused = false
         }
-        self.metronone.start()
+        if SongPlayer.metronomeOn {
+            self.metronone.start()
+        }
     }
     
     func pause() {
@@ -39,7 +44,9 @@ class SongPlayer {
             pausedAt = Date()
             paused = true
         }
-        self.metronone.pause()
+        if SongPlayer.metronomeOn {
+            self.metronone.pause()
+        }
     }
     
     func getCurrentChord() -> (chord: Chord?, chordIndex: Int) {
